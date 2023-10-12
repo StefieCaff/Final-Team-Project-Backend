@@ -25,7 +25,7 @@ const diaryAddEntry = async (req) => {
       });
     } else {
       const data = await Calculator.findOne({ userId });
-      const dailyRate = data ? data._doc.totalCalories : 0;
+      const dailyRate = data ? data._doc.dailyRate : 0;
       const newEntry = {
         date,
         dailyRate,

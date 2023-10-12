@@ -24,7 +24,7 @@ const diaryEntrySchema = new Schema(
   {
     date: {
       type: String,
-      required: [true, "userId is required"],
+      required: true,
     },
     dailyRate: {
       type: Number,

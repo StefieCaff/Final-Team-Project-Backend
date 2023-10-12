@@ -1,9 +1,9 @@
-const dailyRate = require('./dailyRate');
+const getDailyRate = require('./getDailyRate');
 const getNotAllowedFood = require('./getNotAllowedFood');
-const findDiaryEntry = require('./findDiaryEntry');
+const findClosestCalculator = require('./findClosestCalculator');
 
 module.exports = {
-  dailyRate,
+  getDailyRate,
   getNotAllowedFood,
-  findDiaryEntry,
+  findClosestCalculator,
 }
